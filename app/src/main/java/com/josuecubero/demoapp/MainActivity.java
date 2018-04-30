@@ -37,13 +37,16 @@ public class MainActivity extends AppCompatActivity { //this code is run when th
 
     public void practiceOnClick(View view){
         Log.i("Info2","Button2 pressed");
+        Intent intent = new Intent(MainActivity.this, CurrencyConverterActivity.class);
+        startActivity(intent);
+        finish();
     }
 
     public void login(View view){
         EditText textField1 = findViewById(R.id.textField1);
         EditText password = findViewById(R.id.password);
         Log.i("Logged in",textField1.getText().toString()+"\n"+password.getText().toString());
-        Intent intent = new Intent(MainActivity.this, SecondActivity.class);
+        Intent intent = new Intent(MainActivity.this, ImageTestActivity.class);
         startActivity(intent);
         finish();
     }

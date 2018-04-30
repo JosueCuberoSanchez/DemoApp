@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".SecondActivity">
+    tools:context=".ImageTestActivity">
 
     <ImageView
         android:id="@+id/imgView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:contentDescription="@string/eddie_s_head"
         app:srcCompat="@drawable/h1"
         tools:layout_editor_absoluteX="0dp"
         tools:layout_editor_absoluteY="32dp" />
@@ -19,7 +20,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:onClick="changeSource"
-        android:text="Change image"
+        android:text="@string/change_image"
         tools:layout_editor_absoluteX="161dp"
         tools:layout_editor_absoluteY="539dp" />
-</android.support.constraint.ConstraintLayout>
+</RelativeLayout>

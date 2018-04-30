@@ -1,4 +1,9 @@
 <resources>
     <string name="app_name">Demo App</string>
     <string name="hello_josue">Hello Josue!</string>
+    <string name="eddie_s_head">Eddie\'s head</string>
+    <string name="change_image">Change image</string>
+    <string name="enter_currency_dollars">Enter currency(dollars)</string>
+    <string name="convert_to_colones">Convert to colones</string>
+    <string name="currency_image">Currency Image</string>
 </resources>

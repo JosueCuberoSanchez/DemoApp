@@ -46,7 +46,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="232dp"
         android:onClick="practiceOnClick"
-        android:text="Button2" />
+        android:text="Go to currency converter" />
 
     <EditText
         android:id="@+id/textField1"
@@ -78,6 +78,6 @@
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="133dp"
         android:onClick="login"
-        android:text="Log In" />
+        android:text="Go to images test" />
 
 </RelativeLayout>
