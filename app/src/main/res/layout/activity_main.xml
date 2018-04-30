@@ -3,7 +3,6 @@
 <!-- This XML file is the view of the class -->
 
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -32,52 +31,43 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="141dp"
+        android:layout_marginTop="123dp"
         android:onClick="clickFunction"
-        android:text="Button"
+        android:text="@string/click_function"
         tools:layout_editor_absoluteX="148dp"
         tools:layout_editor_absoluteY="145dp" />
-
-    <Button
-        android:id="@+id/button2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="232dp"
-        android:onClick="practiceOnClick"
-        android:text="Go to currency converter" />
 
     <EditText
         android:id="@+id/textField1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
+        android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="262dp"
+        android:layout_marginTop="184dp"
         android:ems="10"
-        android:hint="enter your name.."
+        android:hint="@string/enter_your_name"
         android:inputType="textPersonName" />
 
     <EditText
         android:id="@+id/password"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
+        android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="197dp"
+        android:layout_marginTop="243dp"
         android:ems="10"
-        android:hint="enter your password.."
+        android:hint="@string/enter_your_password"
         android:inputType="textPassword" />
 
     <Button
-        android:id="@+id/login"
+        android:id="@+id/button2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="133dp"
-        android:onClick="login"
-        android:text="Go to images test" />
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="248dp"
+        android:layout_marginStart="26dp"
+        android:onClick="goToFirstMenu"
+        android:text="@string/menu_1" />
 
 </RelativeLayout>

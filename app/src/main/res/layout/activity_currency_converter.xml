@@ -11,6 +11,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
         android:layout_marginTop="23dp"
         android:ems="10"
@@ -34,9 +35,21 @@
         android:layout_width="wrap_content"
         android:layout_height="212dp"
         android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
         android:layout_marginTop="165dp"
         android:contentDescription="@string/currency_image"
         app:srcCompat="@drawable/money" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="86dp"
+        android:layout_marginStart="45dp"
+        android:onClick="back"
+        android:text="@string/back" />
 
 </RelativeLayout>

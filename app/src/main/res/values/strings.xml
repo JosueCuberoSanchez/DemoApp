@@ -1,9 +1,26 @@
 <resources>
     <string name="app_name">Demo App</string>
+
     <string name="hello_josue">Hello Josue!</string>
+    <string name="click_function">Click function [Toast Test]</string>
+    <string name="enter_your_name">enter your name..</string>
+    <string name="enter_your_password">enter your password..</string>
+    <string name="menu_1">Menu 1</string>
+
     <string name="eddie_s_head">Eddie\'s head</string>
     <string name="change_image">Change image</string>
+
     <string name="enter_currency_dollars">Enter currency(dollars)</string>
     <string name="convert_to_colones">Convert to colones</string>
     <string name="currency_image">Currency Image</string>
+
+    <!-- Menu -->
+    <string name="go_to_currency_converter">Go to currency converter</string>
+    <string name="go_to_higher_or_lower">Go to higher or lower</string>
+    <string name="go_to_images_test">Go to images test</string>
+    <string name="number_guess">I\'m thinking of a number between 1 and 20</string>
+    <string name="can_you_guess_it">Can you guess it?</string>
+    <string name="enter_a_number">Enter a number</string>
+    <string name="guess">Guess</string>
+    <string name="back">Back</string>
 </resources>

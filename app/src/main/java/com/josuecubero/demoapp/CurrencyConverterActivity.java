@@ -1,5 +1,6 @@
 package com.josuecubero.demoapp;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -12,6 +13,12 @@ public class CurrencyConverterActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_currency_converter);
+    }
+
+    public void back(View view){
+        Intent intent = new Intent(CurrencyConverterActivity.this, FirstMenuActivity.class);
+        startActivity(intent);
+        finish();
     }
 
     public void convert(View view){
