@@ -23,4 +23,6 @@
     <string name="enter_a_number">Enter a number</string>
     <string name="guess">Guess</string>
     <string name="back">Back</string>
+    <string name="check_number">Check number</string>
+    <string name="go_to_check_number">Go to check number</string>
 </resources>

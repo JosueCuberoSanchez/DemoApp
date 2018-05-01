@@ -31,6 +31,12 @@ public class FirstMenuActivity extends AppCompatActivity {
         finish();
     }
 
+    public void goToCheckNumber(View view){
+        Intent intent = new Intent(FirstMenuActivity.this, IdentifyNumbersActivity.class);
+        startActivity(intent);
+        finish();
+    }
+
     public void back(View view){
         Intent intent = new Intent(FirstMenuActivity.this, MainActivity.class);
         startActivity(intent);
