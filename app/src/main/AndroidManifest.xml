@@ -20,7 +20,11 @@
         <activity android:name=".CurrencyConverterActivity" />
         <activity android:name=".LowerOrHigherActivity" />
         <activity android:name=".FirstMenuActivity" />
-        <activity android:name=".IdentifyNumbersActivity"/>
+        <activity android:name=".IdentifyNumbersActivity" />
+        <activity android:name=".TestActivity" />
+        <activity android:name=".ImageFadeActivity" />
+        <activity android:name=".VideoViewActivity" />
+        <activity android:name=".AudioTestActivity"></activity>
     </application>
 
 </manifest>

@@ -25,4 +25,12 @@
     <string name="back">Back</string>
     <string name="check_number">Check number</string>
     <string name="go_to_check_number">Go to check number</string>
+    <string name="confirm">Confirm</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="luffy">Luffy</string>
+    <string name="go_to_image_fade">Go to image fade</string>
+    <string name="go_to_video_test">Go to video test</string>
+    <string name="go_to_audio_test">Go to audio test</string>
+    <string name="play">Play</string>
+    <string name="pause">Pause</string>
 </resources>

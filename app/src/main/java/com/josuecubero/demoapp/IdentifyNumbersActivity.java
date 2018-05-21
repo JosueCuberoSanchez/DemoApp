@@ -63,6 +63,12 @@ public class IdentifyNumbersActivity extends AppCompatActivity {
         return isTriangle;
     }
 
+    public void back(View view){
+        Intent intent = new Intent(IdentifyNumbersActivity.this, FirstMenuActivity.class);
+        startActivity(intent);
+        finish();
+    }
+
 }
 
 

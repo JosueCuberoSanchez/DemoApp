@@ -37,6 +37,24 @@ public class FirstMenuActivity extends AppCompatActivity {
         finish();
     }
 
+    public void goToImageFade(View view){
+        Intent intent = new Intent(FirstMenuActivity.this, ImageFadeActivity.class);
+        startActivity(intent);
+        finish();
+    }
+
+    public void goToVideoTest(View view){
+        Intent intent = new Intent(FirstMenuActivity.this, VideoViewActivity.class);
+        startActivity(intent);
+        finish();
+    }
+
+    public void goToAudioTest(View view){
+        Intent intent = new Intent(FirstMenuActivity.this, AudioTestActivity.class);
+        startActivity(intent);
+        finish();
+    }
+
     public void back(View view){
         Intent intent = new Intent(FirstMenuActivity.this, MainActivity.class);
         startActivity(intent);
