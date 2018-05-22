@@ -24,7 +24,8 @@
         <activity android:name=".TestActivity" />
         <activity android:name=".ImageFadeActivity" />
         <activity android:name=".VideoViewActivity" />
-        <activity android:name=".AudioTestActivity"></activity>
+        <activity android:name=".AudioTestActivity" />
+        <activity android:name=".GridLayout"></activity>
     </application>
 
 </manifest>
